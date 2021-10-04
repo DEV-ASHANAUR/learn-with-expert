@@ -1,0 +1,22 @@
+.mission-vission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-vission h1{
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission p{
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1;
+    font-weight: 700;
+    text-transform: capitalize;
+}
