@@ -5,14 +5,14 @@ const Contact = () => {
     return (
         <>
             <Breadcrumb pageName='Contact Us' formPage='Home' toPage='Contact'></Breadcrumb>
-
             <div className='container my-5'>
                 <div className="row">
                     <div className="col-md-6">
                         <h2 className='heading'>Leave Us A Message</h2>
-                        <p className='text-center'>
+                        <div className='text-center mb-2'>
                             <h4>Feel Free to Contact With Us</h4>
-                            <h6>We Always ready to help you.</h6></p>
+                            <h6>We Always ready to help you.</h6>
+                        </div>
                         <div className="address">
                             <div className="icon">
                                 <i className="fas fa-envelope-open-text"></i>

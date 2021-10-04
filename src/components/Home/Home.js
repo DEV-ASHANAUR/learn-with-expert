@@ -5,6 +5,7 @@ import Service from '../Service/Service';
 import Slider from '../Slider/Slider';
 const Home = () => {
     const [course,setCourse] = useState([]);
+    //fetch course data
     useEffect(()=>{
         fetch('course.JSON')
         .then(res => res.json())
@@ -21,6 +22,7 @@ const Home = () => {
                             course.map(course => <Service key={course.key} course={course}></Service>)
                         }
                     </div>
+                    {/* view more button */}
                     <div className="view-more my-5">
                         <Link to='/course'>
                             <button className='more-btn'>view more</button>

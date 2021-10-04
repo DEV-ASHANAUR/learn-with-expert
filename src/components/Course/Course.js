@@ -4,6 +4,7 @@ import './Course.css';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 const Course = () => {
     const [course,setCourse] = useState([]);
+    //fetch course data
     useEffect(()=>{
         fetch('course.JSON')
         .then(res => res.json())
